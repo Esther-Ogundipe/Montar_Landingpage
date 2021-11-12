@@ -2,7 +2,7 @@
 
 
 
-main-header.logo{
+header.logo{
     display: inline-block;
     height: auto;
     max-width: clamp(50px, 15vw, 60px);
