@@ -195,7 +195,7 @@ header label{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    text-align: center;
+    text-align: left;
 }
 
 .about .column .image{
