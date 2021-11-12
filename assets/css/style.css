@@ -407,7 +407,7 @@ header label{
 
 .footer{
     padding-top: 3rem;
-    background:url("../assets/images/background.png") no-repeat;
+    background:background:#2b040c;
     background-size: cover;
     background-position: center;
 }
