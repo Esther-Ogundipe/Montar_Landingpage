@@ -108,7 +108,7 @@ header label{
 }
 
 .home{
-    display: block;
+    display: flex;
     align-items: center;
     justify-content: center;
     background:url(..images/h--over.png) no-repeat;
