@@ -280,7 +280,6 @@ header label{
 }
 
 .newsletter form input[type="submit"]:hover{
-    #color:var(--pink);
 }
 
 .review .box-container{
