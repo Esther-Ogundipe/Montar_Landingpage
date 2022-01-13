@@ -234,13 +234,13 @@ header label{
 }
 
 .newsletter h3{
-    color:#2b040c;
+    color:#fff;
     font-size: 3rem;
     text-transform: uppercase;
 }
 
 .newsletter p{
-    color:#2b040c;
+    color:#fff;
     font-size: 1.6rem;
     margin:2rem auto;
     width:70rem;
@@ -249,7 +249,7 @@ header label{
 .newsletter form{
     display: flex;
     max-width: 70rem;
-    border:.2rem solid ##2b040c;
+    border:.2rem solid #fff;
     padding:.5rem;
     border-radius: 5rem;
     margin:2rem auto;
@@ -261,7 +261,7 @@ header label{
     font-size: 1.7rem;
     background:none;
     width:100%;
-    color:#2b040c;
+    color:#fff;
     text-transform: none;
     background:none;
 }
@@ -272,7 +272,7 @@ header label{
 }
 
 .newsletter form input[type="submit"]{
-    background:##2b040c;
+    background:#2b040c;
     width:20rem;
     font-size: 1.7rem;
     border-radius: 5rem;
