@@ -228,7 +228,7 @@ header label{
 .newsletter{
     text-align: center;
     padding:5rem 1rem;
-    background:#2b040c;
+    background:url('../image/background.png') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -274,12 +274,13 @@ header label{
 .newsletter form input[type="submit"]{
     background:#fff;
     width:20rem;
-    font-size: 2.0rem;
+    font-size: 1.7rem;
     border-radius: 5rem;
     cursor: pointer;
 }
 
 .newsletter form input[type="submit"]:hover{
+    color:var(--pink);
 }
 
 .review .box-container{
