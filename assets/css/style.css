@@ -228,7 +228,7 @@ header label{
 .newsletter{
     text-align: center;
     padding:5rem 1rem;
-    background-color:#2b040c
+    background:url('../image/background.png') no-repeat;
     background-size: cover;
     background-position: center;
 }
