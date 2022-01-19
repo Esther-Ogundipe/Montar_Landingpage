@@ -278,7 +278,17 @@ header label{
     border-radius: 5rem;
     cursor: pointer;
 }
+a {
+  text-decoration: none;
+}
 
+.linkable {
+  background-color: palegoldenrod;
+  width: fit-content;
+  padding: 12px 12px;
+  border-radius: 24px;
+  font-size: 2rem;
+}
 .newsletter form input[type="submit"]:hover{
     color:var(--pink);
 }
