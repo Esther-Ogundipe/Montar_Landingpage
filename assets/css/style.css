@@ -289,8 +289,8 @@ a {
   border-radius: 24px;
   font-size: 2rem;
 }
-.newsletter form input[type="submit"]:hover{
-    /* color:var(--pink); */
+ /* .newsletter form input[type="submit"]:hover{
+    color:var(--pink); */
 }
 
 .review .box-container{
