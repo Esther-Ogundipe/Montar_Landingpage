@@ -283,7 +283,7 @@ a {
 }
 
 .linkable {
-  background-color: palegoldenrod;
+ /* background-color: palegoldenrod; */
   width: fit-content;
   padding: 12px 12px;
   border-radius: 24px;
