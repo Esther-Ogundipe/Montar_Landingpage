@@ -284,12 +284,12 @@ a {
 
 .linkable {
  /* background-color: palegoldenrod; */
-  width: 100%;
+  /*width: 100%;
   padding: 1rem 0;
-  /* border-radius: 24px; */
+  border-radius: 24px; 
   font-size: 2rem;
   margin-center: 1rem;
-}
+}*/
  /* .newsletter form input[type="submit"]:hover{
     color:var(--pink); */
 }
