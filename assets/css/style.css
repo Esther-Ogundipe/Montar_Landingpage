@@ -271,13 +271,13 @@ header label{
     text-transform: capitalize;
 }
 
-.newsletter form input[type="submit"]{
+/*.newsletter form input[type="submit"]{
     background:#fff;
     width:20rem;
     font-size: 1.7rem;
     border-radius: 5rem;
     cursor: pointer;
-}
+}*/
 a {
   text-decoration: none;
 }
