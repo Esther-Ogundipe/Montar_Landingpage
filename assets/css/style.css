@@ -283,6 +283,7 @@ a {
 }
 
 .linkable {
+    margin-center: 1rem;
  /* background-color: palegoldenrod; */
   /*width: 100%;
   padding: 1rem 0;
