@@ -147,6 +147,10 @@ header label{
     padding:1rem 0;
 }
 
+.features .heading {
+  color: #000;
+  text-align: center;
+}
 .features .box-container{
     display: flex;
     align-items: center;
@@ -183,6 +187,10 @@ header label{
     padding: 1rem 0;
 }
 
+.about .heading {
+  color: #000;
+  text-align: center;
+}
 .about{
     background:url(../images/about-bg.png) no-repeat;
     background-size: cover;
@@ -293,6 +301,11 @@ a {
 }*/
  /* .newsletter form input[type="submit"]:hover{
     color:var(--pink); */
+}
+
+.review .heading {
+  color: #000;
+  text-align: center;
 }
 
 .review .box-container{
