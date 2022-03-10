@@ -148,7 +148,7 @@ header label{
 }
 
 .features .heading {
-  color: #000;
+  color: #2b040c;
   text-align: center;
 }
 .features .box-container{
@@ -188,7 +188,7 @@ header label{
 }
 
 .about .heading {
-  color: #000;
+  color: #2b040c;
   text-align: center;
 }
 .about{
@@ -304,7 +304,7 @@ a {
 }
 
 .review .heading {
-  color: #000;
+  color: #2b040c;
   text-align: center;
 }
 
@@ -331,7 +331,7 @@ a {
     position: absolute;
     top:1rem; right:2rem;
     font-size: 8rem;
-    color:var(--purple);
+    color:#2b040c;
     opacity: .3;
 }
 
@@ -344,12 +344,12 @@ a {
 }
 
 .review .box-container .box .user h3{
-    color:var(--purple);
+    color:#2b040c;
     font-size: 2rem;
 }
 
 .review .box-container .box .user .stars i{
-    color:var(--purple);
+    color:#2b040c);
     font-size: 1.5rem;
     padding:1rem 0;
 }
