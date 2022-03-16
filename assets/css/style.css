@@ -103,8 +103,8 @@ header label{
     font-size: 3rem;
     color:var(--purple);
     cursor: pointer;
-    visibility: hidden;
-    opacity: 0;
+/*     visibility: hidden;
+    opacity: 0; */
 }
 
 .home{
@@ -535,9 +535,23 @@ a {
 
 @media (max-width:768px){
 
+     #menu-bar{
+        display: none;
+    }
     header label{
         visibility: visible;
         opacity: 1;
+    }
+    
+     .fas{
+        position: relative;
+    }
+    .fas::before{
+        content: "=";
+        color:#000;
+        font-style: normal;
+        font-size:50px;
+        font-family: "Font Awesome 5 Brands";
     }
 
     header .navbar{
@@ -565,8 +579,13 @@ a {
         opacity: 1;
     }
 
-    header input:checked ~ label::before{
-        content:'\f00d';
+    header input:checked ~ .fas::before{
+        content:  "\f0c9";
+        color:#000;
+        font-style: normal;
+        font-weight: 900;
+        font-size:50px;
+        font-family: "Font Awesome 5 Brands";
     }
 
     .home{
