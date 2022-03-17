@@ -447,7 +447,7 @@ a {
 .contact form .inputBox input, .contact form .inputBox textarea{
     width:100%;
     background:none;
-    color:#666;
+    color:#000;
     margin:1.5rem 0;
     padding:.5rem 0;
     font-size: 1.7rem;
@@ -464,7 +464,7 @@ a {
     position: absolute;
     top:1.7rem; left:0;
     font-size: 1.7rem;
-    color:#666;
+    color:#000;
     transition: .2s linear;
 }
 
