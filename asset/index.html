@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Montar Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+
+</head>
+
+<body>
+
+    <!-- header section starts -->
+
+
+    <header class="main-header">
+
+        <a href="https://www.montarconsulting.com/"><img class="logo" src="logoo.png" alt="montar consulting logo"></a>
+
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar" class="fas fa-bars"></label>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">The Better Plan</a>
+            <a href="#services">services</a>
+            <a href="#steps">templates</a>
+            <a href="#resources">resources</a>
+        </nav>
+    </header>
+
+    <body>
+        <!-- header section ends -->
+
+        <!-- home section starts  -->
+
+        <!-- <section id="home" class="home">
+
+
+        <h1 class="banner">Superior quality services-made for you-<span class="banner"> support every step of the
+                way</span></h1>
+        <!-- <h1 class="banner">made for you</h1> -->
+        <!-- <h1 class="banner">support every step of the way</h1> 
+
+
+    <div class="wave wave1"></div>
+    <div class="wave wave2"></div>
+    <div class="wave wave3"></div>
+
+    <div class="fas fa-cog nut1"></div>
+    <div class="fas fa-cog nut2"></div>
+
+
+    </section> -->
+
+        <!-- home section ends -->
+
+        <!--image slider start-->
+        <section id="home" class="home">
+            <div class="slider">
+                <div class="slides">
+                    <!--radio buttons start-->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <!--radio buttons end-->
+                    <!--slide images start-->
+                    <div class="slide first">
+                        <img src="1.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="2.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="3.png" alt="">
+                    </div>
+
+                    <!--slide images end-->
+                    <!--automatic navigation start-->
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                    </div>
+                    <!--automatic navigation end-->
+                </div>
+                <!--manual navigation start-->
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
+                <!--manual navigation end-->
+            </div>
+        </section>
+        <!--image slider end-->
+
+        <script type="text/javascript">
+            var counter = 1;
+            setInterval(function () {
+                document.getElementById('radio' + counter).checked = true;
+                counter++;
+                if (counter > 4) {
+                    counter = 1;
+                }
+            }, 5000);
+        </script>
+
+        <!-- about section starts  -->
+
+        <section class="about" id="about">
+
+            <div class="image">
+                <img src="better.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3>Before you start your <span class="line-down">business</span></h3>
+                <p>A dream is nothing without a plan. We have designed The Better Plan to help you start without
+                    confusion
+                    or overwhelm and also set your business up for success.
+                </p>
+                <p> The Better Plan will walk you through the process of generating innovative ideas to actually
+                    starting your business. Our goal with this guidebook is to offer you a deep understanding of the
+                    essential business elements that contribute to its profitability. </p>
+                <a href="https://selar.co/thebetterplan" class="btn">Get The Better Plan</a>
+            </div>
+
+        </section>
+
+        <!-- about section ends -->
+
+        <!-- services section starts  -->
+
+        <section class="services" id="services">
+
+            <div class="heading">
+
+                <span>Now that you have started</span>
+                <h1>Our Full List of Services</h1>
+
+            </div>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <h3>Brand Core</h3>
+                    <ul>
+                        <li> <i class="fas fa-check"></i> Business Idea Generation </li>
+                        <li> <i class="fas fa-check"></i> Business Idea Validation </li>
+                        <li> <i class="fas fa-check"></i> Product-Market Fit </li>
+                    </ul>
+
+                </div>
+
+                <div class="box">
+                    <h3>brand strategy</h3>
+                    <ul>
+                        <li> <i class="fas fa-check"></i> Brand Heart </li>
+                        <li> <i class="fas fa-check"></i> Brand Positioning</li>
+                        <li> <i class="fas fa-check"></i> Brand Messaging </li>
+                    </ul>
+                </div>
+
+                <div class="box">
+                    <h3>brand design</h3>
+                    <ul>
+                        <li> <i class="fas fa-check"></i> Brand Color Palette </li>
+                        <li> <i class="fas fa-check"></i> Brand Logo </li>
+                        <li> <i class="fas fa-check"></i> Brand Fonts & Typography</li>
+                    </ul>
+                </div>
+
+                <div class="box">
+                    <h3>Legal Structure</h3>
+                    <ul>
+                        <li> <i class="fas fa-check"></i> Business Name Registration </li>
+                        <li> <i class="fas fa-check"></i> Company Incorporation </li>
+                        <li> <i class="fas fa-check"></i> Partnership Registration </li>
+                        <li> <i class="fas fa-check"></i> Incorporated Trustees </li>
+                    </ul>
+                </div>
+
+                <div class="box">
+                    <h3>Legal Agreements</h3>
+                    <ul>
+                        <li> <i class="fas fa-check"></i> Shareholders Agreements </li>
+                        <li> <i class="fas fa-check"></i> Employee Agreements </li>
+                        <li> <i class="fas fa-check"></i> Service Agreements </li>
+                        <li> <i class="fas fa-check"></i> Partnership Agreements </li>
+                    </ul>
+                </div>
+
+                <div class="box">
+                    <h3>Business Policies</h3>
+                    <ul>
+                        <li> <i class="fas fa-check"></i> Customer Policies </li>
+                        <li> <i class="fas fa-check"></i> Staff Policies </li>
+                        <li> <i class="fas fa-check"></i> Vendor Policies </li>
+                        <li> <i class="fas fa-check"></i> Terms & Conditions </li>
+                    </ul>
+                    </p>
+                </div>
+
+                <div class="box">
+                    <h3>Prelaunch Funding</h3>
+                    <ul>
+                        <li> <i class="fas fa-check"></i> Business Plan </li>
+                        <li> <i class="fas fa-check"></i> Business Proposal </li>
+                        <li> <i class="fas fa-check"></i> Pitch Deck </li>
+                        <li> <i class="fas fa-check"></i> Startup Budget </li>
+                    </ul>
+                    </p>
+                </div>
+
+                <div class="box">
+                    <h3>Ramp-up Funding</h3>
+
+                    <ul>
+                        <li> <i class="fas fa-check"></i> Funding Application </li>
+                        <li> <i class="fas fa-check"></i> Financial Model </li>
+                        <li> <i class="fas fa-check"></i> Financial Projection </li>
+                        <li> <i class="fas fa-check"></i> Startup Valuation </li>
+                    </ul>
+                    </p>
+                </div>
+
+                <div class="box">
+                    <h3>Funding Agreements</h3>
+                    <ul>
+                        <li> <i class="fas fa-check"></i> Investment Agreement </li>
+                        <li> <i class="fas fa-check"></i> Share Subscription Agreement </li>
+                        <li> <i class="fas fa-check"></i> Financing Agreement </li>
+                        <li> <i class="fas fa-check"></i> Term Sheet </li>
+                    </ul>
+                    </p>
+                </div>
+
+                <div class="buttons">
+                    <div class="vertical-center">
+                        <a href="https://giuvrf4mwh6.typeform.com/to/G7LK6NrI?typeform-source=www.montarconsulting.com"
+                            class="btn"> Work With Us </a>
+
+                        <style>
+                            .buttons {
+                                text-align: center;
+                                justify-content: center;
+                                align-items: center;
+                                width: 300px;
+                                height: 300px;
+                                margin: auto;
+                                padding: 10px;
+                            }
+                        </style>
+
+                        <!--<style>
+                        .buttons {
+                            text-align: center;
+                            justify-content: center;
+                            align-items: center;
+                            width: 300px;
+                            height: 300px;
+                        }
+                    </style> -->
+
+                        <!-- <style>
+                        .buttons {
+                            width: 200px;
+                            height: 300px;
+                            margin: auto;
+                        }
+                    </style> -->
+
+
+
+
+                    </div>
+                </div>
+
+
+
+
+        </section>
+
+        <!-- services section ends -->
+
+        <!-- features section starts  -->
+
+        <section class="features" id="features">
+
+            <div class="heading">
+                <span>Need More Help?</span>
+                <h1>Schedule A Consultation</h1>
+            </div>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <div class="image">
+                        <img src="Feature.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>strategy sessions <span class="line-down"></span></h3>
+                        <p>Our strategy sessions provide a one-on-one, systematic approach to proferring
+                            actionable solutions to your business problems. The four sessions available are
+                            Pricing, Competitive Advantage, Business Model, and Investment Readiness.
+                        </p>
+                        <a href="https://paystack.com/pay/i7akbcwe7v" class="btn">schedule a call</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="featurescopy.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Talk with the <span class="line-down">principal</span> consultant</h3>
+                        <p>Get a chance to speak with esther, principal Consultant at Montar to examine
+                            your business systems along with your challenges and design a concrete strategy
+                            to achieve the goals and objectives you have set for your business The Better Way.
+                        </p>
+                        <a href="https://paystack.com/pay/montarconsultation" class="btn">schedule a call</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- features section ends -->
+
+        <!-- steps section starts  -->
+
+        <section class="steps">
+
+            <div class="heading">
+                <span>Do You Prefer To DIY?</span>
+                <h1>Shop Our Templates</h1>
+            </div>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="staff.svg" alt="">
+                    <h3>Staff Policies</h3>
+                    <p> Get 35 lawyer-drafted customizable staff policies templates. Just add your company information.
+                    </p>
+
+                    <a href="https://selar.co/staffpolicies" class="btn">Buy now</a>
+                </div>
+
+                <div class="box">
+                    <img src="files.png" alt="">
+                    <h3>Customer Policies</h3>
+                    <p>This template pack contains 15 lawyer crafted customer policies. Just add your company
+                        information.</p>
+                    <a href=" https://selar.co/customerpolicies" class="btn">buy now</a>
+                </div>
+
+                <div class="box">
+                    <img src="prop.svg" alt="">
+                    <h3>Business Proposal</h3>
+                    <p>This template will help you prepare a proposal quickly to present your business to investors.</p>
+                    <a href="https://selar.co/businessproposal" class="btn">buy now</a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- steps section ends -->
+
+        <!-- resources section starts  -->
+
+        <section class="resources">
+
+            <div class="heading">
+                <span>Here's Something For You</span>
+                <h1>Get These Resources For Free</h1>
+            </div>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="businessman.svg" alt="">
+                    <h3>Becoming An Entrepreneur</h3>
+                    <p>Discover the entrepreneur in you. Find out if you are truly ready to start a business. </p>
+                    <a href="https://getstartedmontar.online/" class="btn">download</a>
+                </div>
+
+                <div class="box">
+                    <img src="growth.svg" alt="">
+                    <h3>Developing A Growth Mindset</h3>
+                    <p>Learn how to have a mindset that facilitates, embraces and drives growth as an entrepreneur.</p>
+                    <a href="https://getstartedmontar.online/" class="btn">download</a>
+                </div>
+
+                <div class="box">
+                    <img src="customer.svg" alt="">
+                    <h3>Curate Customer Experience</h3>
+                    <p>Build a solid plan to keep your customers satisfied, drive loyalty, referrals and repeat
+                        patronage.
+                    </p>
+                    <a href="https://getstartedmontar.online/" class="btn">download</a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- resources section ends -->
+
+
+        <!-- footer section starts  -->
+
+        <div class="footer">
+
+            <style>
+                body {
+                    text-align: left;
+                }
+            </style>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <h3>about us</h3>
+                    <p> A Mission To Harness Strategy And Innovation In Improving Business Trajectories
+                        Through A Holistic Intervention In Performance And Productivity.</p>
+                </div>
+
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="https://www.montarconsulting.com/#home">home</a>
+                    <a href="https://www.montarconsulting.com/#services">services</a>
+                    <a href="https://www.montarconsulting.com/#about">about</a>
+                    <a href="https://www.montarconsulting.com/#review">testimonials</a>
+                    <a href="https://montarconsulting.wixsite.com/blog/#contact">Blog</a>
+                </div>
+
+                <div class="box">
+                    <h3>We are social</h3>
+                    <a href="https://web.facebook.com/montarconsulting">facebook</a>
+                    <a href="https://www.instagram.com/montarconsulting/">instagram</a>
+                    <a href="https://www.linkedin.com/company/71185517/">linkedin</a>
+                    <a href="http://www.twitter.com/montarconsultin/">twitter</a>
+                </div>
+
+                <div class="box">
+                    <h3>contact us</h3>
+                    <div class="info">
+                        <a href="tel:+2348097908425">+234-809-790-8425</a>
+                    </div>
+                    <div class="info">
+                        <a href="mailto:hello@montarconsulting.com">hello@montarconsulting.com</a>
+                    </div>
+                    <div class="info">
+                        <a href="https://goo.gl/maps/Gqp3cNWukPWTLXXF7">142 Ahmadu Bello Way, Victoria Island Lagos,
+                            Nigeriar</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <h1 class="credit"> &copy; copyright Montar Consulting Ltd 2022 </h1>
+
+        </div>
+
+        <!-- footer section ends -->
+
+
+    </body>
+
+</html>
