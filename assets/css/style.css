@@ -88,7 +88,7 @@ header{
 header .navbar a{
     font-size: 1.7rem;
     margin-left: 2rem;
-    color:var(--pink);
+    cvar(--pink);
 }
 
 header .navbar a:hover{
@@ -132,12 +132,12 @@ header label{
 
 .home .content h3{
     font-size: 5.5rem;
-    color:#2b040c;
+    color:#000;
     text-transform: uppercase;
 }
 
 .home .content h3 span{
-    color:var(--pink);
+    color: #000;
     text-transform: uppercase;
 }
 
@@ -225,7 +225,7 @@ header label{
   .about .content h3 {
     font-size: 3rem;
     line-height: 1.5;
-    color: #fff;
+    color: #000;
   }
   
   .about .content p {
