@@ -736,14 +736,14 @@ a {
     border:.1rem solid rgba(0,0,0,.2);
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     border-radius: .5rem;
-    background:#2b040c;
+    background:#fff;
     text-align: center;
 }
 
 .contact form .heading{
     text-align: center;
     text-transform: capitalize;
-    color: #fff;
+    color: #000;
     padding:0;
     padding-bottom: 2rem;
 }
