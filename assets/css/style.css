@@ -180,7 +180,7 @@ header label{
 
 .features .box-container .box h3{
     font-size: 2rem;
-    color:#2b040c;
+    color:#000;
     padding-top: 1rem;
 }
 
@@ -229,7 +229,7 @@ header label{
   }
   
   .about .content p {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     line-height: 2;
     padding: 1rem 0;
   }
