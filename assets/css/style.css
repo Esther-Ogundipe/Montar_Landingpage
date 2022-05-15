@@ -150,7 +150,7 @@ header label{
 
 
 .features .heading {
-  color: #2b040c;
+  color: #fff;
   text-transform: capitalize;
   text-align: center;
 }
@@ -225,7 +225,7 @@ header label{
   .about .content h3 {
     font-size: 3rem;
     line-height: 1.5;
-    color: #2b040c;
+    color: #fff;
   }
   
   .about .content p {
@@ -293,7 +293,7 @@ header label{
 .newsletter h3{
     color:#fff;
     font-size: 3rem;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .newsletter p{
@@ -353,7 +353,8 @@ a {
 }
 
 .review .heading {
-  color: #2b040c;
+  color: #fff;
+  text-transform: capitalize;
   text-align: center;
 }
 
@@ -735,13 +736,14 @@ a {
     border:.1rem solid rgba(0,0,0,.2);
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     border-radius: .5rem;
-    background:#fff;
+    background:#2b040c;
     text-align: center;
 }
 
 .contact form .heading{
     text-align: center;
-    color:#2b040c
+    text-transform: capitalize;
+    color: #fff;
     padding:0;
     padding-bottom: 2rem;
 }
