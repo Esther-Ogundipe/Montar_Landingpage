@@ -151,6 +151,7 @@ header label{
 
 .features .heading {
   color: #2b040c;
+  text-transform: capitalize;
   text-align: center;
 }
 .features .box-container{
