@@ -131,7 +131,7 @@ header label{
     }
 }
 
-.home .content h3{
+/* .home .content h3{
     font-size: 5.5rem;
     color:#000;
     text-transform: uppercase;
@@ -146,9 +146,18 @@ header label{
     font-size: 1.7rem;
     color:#666;
     padding:1rem 0;
+} */
+
+.homee .content h3{
+    font-size: 5.5rem;
+    color:#2b040c;
+    text-transform: uppercase;
 }
 
-
+.homee .content h3 span{
+    color:var(--pink);
+    text-transform: uppercase;
+}
 
 .features .heading {
   color: #000;
