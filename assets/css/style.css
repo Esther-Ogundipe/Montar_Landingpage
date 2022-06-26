@@ -148,13 +148,13 @@ header label{
     padding:1rem 0;
 } */
 
-.homee .content h3{
+.home .content h3{
     font-size: 5.5rem;
     color:#2b040c;
     text-transform: uppercase;
 }
 
-.homee .content h3 span{
+.home .content h3 span{
     color:var(--pink);
     text-transform: uppercase;
 }
