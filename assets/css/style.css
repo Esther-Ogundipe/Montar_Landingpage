@@ -31,8 +31,7 @@ header.logo{
 html{
     font-size: 62.5%;
     overflow-x: hidden;
-    position: fixed;
-    top: 0;
+   
 }
 
 body{
