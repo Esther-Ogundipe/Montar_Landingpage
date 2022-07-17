@@ -10,7 +10,7 @@ header.logo{
 }
 :root{
     --pink:#2b040c;
-    --purple:#712e1e;
+    --purple:#2b040c;
     --gradient:linear-gradient(90deg, var(--purple), var(--pink));
 }
 
