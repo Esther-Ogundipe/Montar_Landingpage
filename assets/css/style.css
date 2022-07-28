@@ -51,7 +51,7 @@ section{
     display: inline-flex;
     margin-top: 1rem;
     background:var(--gradient);
-    font-size: 1.7rem;
+    font-size: 2.0rem;
     color:#fff;
     cursor: pointer;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
@@ -64,7 +64,7 @@ section{
     display: inline-flex;
     margin-top: 1rem;
     background:#fff;
-    font-size: 1.7rem;
+    font-size: 2.0rem;
     color:#2b040c;
     cursor: pointer;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
