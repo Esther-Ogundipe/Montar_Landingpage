@@ -58,6 +58,20 @@ section{
     transition: all .3s linear;
 }
 
+.btnn{
+    padding: 12px 24px;
+    text-align: center;
+    display: inline-flex;
+    margin-top: 1rem;
+    background:#fff;
+    font-size: 1.7rem;
+    color:#2b040c;
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    transition: all .3s linear;
+}
+
+
 .btn:hover{
     transform: scale(1.1);
 }
