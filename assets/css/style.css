@@ -655,6 +655,66 @@ a {
   font-size: 1.7rem;
 }
 
+.featuresa {
+  background: #fff;
+}
+
+.featuresa .heading {
+  color: #000;
+  text-align: center;
+}
+
+.featuresa .box-container .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 60vh;
+  margin-bottom: 3rem;
+}
+
+.featuresa .box-container .box:last-child {
+  margin-bottom: 0;
+}
+
+.featuresa .box-container .box:nth-child(even) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-flow: row-reverse wrap;
+          flex-flow: row-reverse wrap;
+}
+
+.featuresa .box-container .box .image {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 42rem;
+          flex: 1 1 42rem;
+}
+
+.featuresa .box-container .box .image img {
+  width: 100%;
+}
+
+.featuresa .box-container .box .content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 42rem;
+          flex: 1 1 42rem;
+}
+
+.featuresa .box-container .box .content h3 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.featuresa .box-container .box .content p {
+  padding: 1.5rem 0;
+  line-height: 2;
+  font-size: 1.7rem;
+}
 
 .steps {
   background: #fff;
