@@ -749,9 +749,10 @@ a {
 
 .steps .box-container .box p {
   font-size: 2rem;
+  color: #000;
   line-height: 2;
   padding-bottom: 1rem;
-  color: #000;
+  
 }
 
 .resources {
